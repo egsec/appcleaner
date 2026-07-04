@@ -1,0 +1,26 @@
+# Bağımlılıklar / dependencies
+node_modules/
+
+# Build çıktıları / build outputs
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Üretilen test fikstürü / generated test fixture (scripts/make-fixture.mjs)
+fixture/
+
+# Yerel araç dosyaları / local tool state
+.claude/
+*.local
+*.log
+
+# Editör / IDE
+.vscode/
+.idea/
+
+# İşletim sistemi / OS
+.DS_Store
+Thumbs.db
+
+
+progress.md
