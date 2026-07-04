@@ -51,11 +51,11 @@ jobs:
           tagName: ${{ github.ref_name }}
           releaseName: "AppCleaner ${{ github.ref_name }}"
           releaseBody: |
-            Debian/Ubuntu paketi (.deb) aşağıdadır. Kurulum:
+            Linux paketleri aşağıdadır:
 
-            ```sh
-            sudo apt install ./appcleaner_*.deb
-            ```
+            - **Debian/Ubuntu:** `sudo apt install ./AppCleaner_*_amd64.deb`
+            - **Fedora/openSUSE:** `sudo dnf install ./AppCleaner-*.x86_64.rpm`
+            - **Her dağıtım:** AppImage dosyasını indirip `chmod +x` ile çalıştırılabilir yapın
           releaseDraft: false
           prerelease: false
-          args: --bundles deb
+          args: --bundles deb,rpm,appimage

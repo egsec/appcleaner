@@ -7,5 +7,5 @@ body,
 }
 
 body {
-  @apply bg-zinc-950 text-zinc-100 antialiased;
+  @apply bg-[#f1f1f3] text-zinc-800 antialiased;
 }

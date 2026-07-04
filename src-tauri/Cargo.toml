@@ -1,6 +1,6 @@
 [package]
 name = "appcleaner"
-version = "0.1.0"
+version = "0.2.0"
 description = "Kaldırılan Linux uygulamalarının artık dosyalarını bulup temizler"
 edition = "2021"
 
